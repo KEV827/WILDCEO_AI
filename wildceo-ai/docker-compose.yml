@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: wildceo-ai_server_1
+      APP_PORT: 3777
+
+  server:
+    image: ghcr.io/wildceo/wildceo-ai:1.0.0
+    restart: on-failure
+    stop_grace_period: 30s
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    environment:
+      - PORT=3777
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

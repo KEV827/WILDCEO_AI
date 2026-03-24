@@ -1,0 +1,53 @@
+manifestVersion: 1
+id: wildceo-ai
+name: WildCEO AI
+tagline: "Strategic AI advisor — War room in your pocket"
+category: ai
+version: "1.0.0"
+port: 3777
+description: >-
+  WildCEO AI is a self-hosted strategic advisor built on the WildCEO manifesto philosophy.
+  It doesn't give generic advice — it reframes your problem, finds the asymmetric angle,
+  and hands you the move.
+
+
+  BRING YOUR OWN KEY — Supports Anthropic (Claude), OpenAI (GPT), OpenRouter (200+ models),
+  and Ollama (fully local, zero cloud). Your keys stay on your server.
+
+
+  FOUR WAR ROOM MODES:
+
+  ♟ STRATEGY — Asymmetric thinking for hard problems.
+
+  ⚔ FIGHT — Legal, corporate, or competitive warfare.
+
+  ⚡ BUILD — Startup, product, or team decisions.
+
+  🔥 LEAD — People, family, values, culture.
+
+
+  FEATURES:
+
+  Full conversation history with persistence across restarts.
+  Multi-provider LLM routing — switch models in seconds.
+  Connection testing before you commit.
+  Mobile responsive — use from your phone on LAN.
+  Zero telemetry, zero tracking, zero cloud dependency.
+  With Ollama: fully offline, no API keys, complete sovereignty.
+
+
+  Your data stays on your machine. Always.
+developer: WildCEO / Mark Abraham
+website: https://wildceo.live
+repo: https://github.com/wildceo/wildceo-umbrel-store
+support: https://wildceo.live
+path: ""
+dependencies: []
+gallery: []
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  Initial release. Full BYOK support for Anthropic, OpenAI, OpenRouter, and Ollama.
+  Four war room modes. Conversation history. License key activation.
+submitter: Mark Abraham
+submission: https://github.com/wildceo/wildceo-umbrel-store
